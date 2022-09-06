@@ -3,6 +3,7 @@ In ideal world Dockerfile should not have any problem while running but
 due to some unknown error i was unable to make it work. I would list
 the step which were manually did. 
 * Pulled latest httpd
+ `docker pull httpd:latest`
 * Run the httpd container 
 * Copy the httpd.conf file to /usr/local/apache2/conf
 * update the image with new name 

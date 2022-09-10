@@ -1,3 +1,10 @@
 .idea/
-HelloWorld/target/
-HelloWorld/HelloWorld.iml
+target
+logs
+*.log
+.idea
+*.iml
+generated/*
+*.jtl
+testresults/
+
